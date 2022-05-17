@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/lblLatIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/latIn"
+        android:autofillHints=""
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/txtLatIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:autofillHints=""
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/lblLngIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/lngIn"
+        android:autofillHints=""
+        android:enabled="false"/>
+
+
+    <EditText
+        android:id="@+id/txtLngIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:autofillHints=""
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/btnConsGeo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ConsIn"
+        />
+
+
+
+    <EditText
+        android:id="@+id/txtMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/msg"
+        android:autofillHints=""/>
+
+
+    <EditText
+        android:id="@+id/txtSunrise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/sunrise"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtLng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/lng"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtCountryCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/countryCode"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtGmtOffset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/gmtOffset"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtRawOffset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/rawOffset"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtSunset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/sunset"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtTimezoneId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/timezoneId"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtDstOffset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/dstOffset"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtCountryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/countryName"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/time"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtLat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|text"
+        android:hint="@string/lat"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Start" />
+
+
+
+
+
+</LinearLayout>

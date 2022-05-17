@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Consumir WS CDP</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="msg">Message</string>
+    <string name="lng">Lng</string>
+    <string name="countryCode">CountryCode</string>
+    <string name="gmtOffset">GmtOffset</string>
+    <string name="rawOffset">RawOffset</string>
+    <string name="sunset">Sunset</string>
+    <string name="timezoneId">TimezoneId</string>
+    <string name="dstOffset">DstOffset</string>
+    <string name="countryName">CountryName</string>
+    <string name="time">Time</string>
+    <string name="lat">Lat</string>
+    <string name="latIn">Latitud</string>
+    <string name="lngIn">Longitud</string>
+    <string name="enviar">Enviar</string>
+    <string name="ConsIn">Consultar Coordenadas</string>
+    <string name="Start">Reiniciar</string>
+</resources>
